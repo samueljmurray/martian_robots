@@ -95,7 +95,7 @@ module Utils
 			end
 		},
 		lost: {
-			Description: "Lists the positions of all robots that have been lost",
+			Description: "Lists the last positions of all robots that have been lost",
 			Method: lambda do |thegrid|
 				if thegrid.lost_robots.length > 0
 					puts Utils::AddStyle("\nLOST ROBOTS",:bold)
