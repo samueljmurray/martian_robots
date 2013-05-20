@@ -6,7 +6,7 @@ Martian robots is an application that allows you to remotely control robots on t
 Requirements
 ------------
 
-- OS: Mac OSX or Linux
+- OS: Mac OSX or Ubuntu
 - Ruby 1.9.3
 
 Starting Martian Robots
