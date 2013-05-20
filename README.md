@@ -22,24 +22,32 @@ Or:
 How To Use
 ----------
 
-1. Start by defining a grid on the surface of Mars by giving a width and height like this:
-    ```Grid size(W H): 20 25```
-    This will make a grid that is 20 grid spaces wide and 25 grid spaces high. The maximum is 50 by 50
-2. Next, you are ready to add robots to the grid. Do this by giving them grid coordinates and direction in which to face, like this:
-    ```Robot 1 position (X Y DIR): 5 5 N```
-    This will add a robot to the grid at grid coordinates 5 5 facing north.
-3. Give your robot instructions. The default instructions are:
+Start by defining a grid on the surface of Mars by giving a width and height like this:
+
+    Grid size(W H): 20 25
+
+This will make a grid that is 20 grid spaces wide and 25 grid spaces high. The maximum is 50 by 50
+
+Next, you are ready to add robots to the grid. Do this by giving them grid coordinates and direction in which to face, like this:
+
+    Robot 1 position (X Y DIR): 5 5 N
+
+This will add a robot to the grid at grid coordinates 5 5 facing north.
+
+Give your robot instructions. The default instructions are:
   - L: Turn the robot 90 degrees anti-clockwise on its current position
   - R: Turn the robot 90 degrees clockwise on its current position
   - F: Move the robot forward by one grid space in the direction it is facing
 
-    Type ```help``` at any time to list these instructions
-    Give your instructions as a string (maximum 100 instructions), like this:
-    ```FFLFLFRFFF```
-    You can only give the robot one string of instructions.
-    You will be notified if your robot moves outside the boundaries of the grid. When this happens, the robot leaves a scent. If you instruct any robot to move off the grid from the same gridpoint, it will reject the instructions.
+Type ```help``` at any time to list these instructions
+Give your instructions as a string (maximum 100 instructions), like this:
 
-4. Once the robot has processed the instructions you will be prompted to add another to the grid.
+    Instrutions for Robot 1: FFLFLFRFFF
+
+You can only give the robot one string of instructions.
+You will be notified if your robot moves outside the boundaries of the grid. When this happens, the robot leaves a scent. If you instruct any robot to move off the grid from the same gridpoint, it will reject the instructions.
+
+Once the robot has processed the instructions you will be prompted to add another to the grid.
 
 Special Commands
 ----------------
