@@ -13,7 +13,7 @@ Starting Martian Robots
 -----------------------
 
 Either:
-- Double click on the 'martian_robots' executable
+- Double click on the 'martian_robots' executable. If prompted, click on 'Run in Terminal'
 
 Or:
 - In a terminal, navigate to the application directory and type:
