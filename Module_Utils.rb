@@ -113,7 +113,9 @@ module Utils
 		ongrid: {
 			Description: "Lists the positions of all robots that are on the grid",
 			Method: lambda do |thegrid|
-				if thegrid.robots.length == thegrid.lost_robots
+				if thegrid.robots.length == thegrid.lost_robots.length
+					puts "\nNo robots are on the grid!\n\n"
+				else
 					puts Utils::AddStyle("\nALL ROBOTS",:bold)
 					puts "------------------"
 					thegrid.robots.each_with_index do |robot,robot_num|
@@ -123,8 +125,6 @@ module Utils
 						end
 					end
 					puts ""
-				else
-					puts "\nNo robots are on the grid!\n\n"
 				end
 			end
 		},
