@@ -33,14 +33,14 @@ How To Use
   - R: Turn the robot 90 degrees clockwise on its current position
   - F: Move the robot forward by one grid space in the direction it is facing
 
-Type ```help``` at any time to list these instructions
+    Type ```help``` at any time to list these instructions
 
-Give your instructions as a string (maximum 100 instructions), like this:
+    Give your instructions as a string (maximum 100 instructions), like this:
     ```FFLFLFRFFF```
     
-You can only give the robot one string of instructions.
+    You can only give the robot one string of instructions.
 
-You will be notified if your robot moves outside the boundaries of the grid. When this happens, the robot leaves a scent. If you instruct any robot to move off the grid from the same gridpoint, it will reject the instructions.
+    You will be notified if your robot moves outside the boundaries of the grid. When this happens, the robot leaves a scent. If you instruct any robot to move off the grid from the same gridpoint, it will reject the instructions.
 
 4. Once the robot has processed the instructions you will be prompted to add another to the grid.
 
@@ -50,8 +50,13 @@ Special Commands
 These are commands that you can type at any time:
 
 ```exit```: Exit the program
+
 ```where```: List the position of all robots
+
 ```lost```: Lists the last positions of all robots that have been lost
+
 ```ongrid```: Lists the positions of all robots that are on the grid
+
 ```grid```: Displays the size of the grid
+
 ```help```: Lists the robot instructions and special commands
